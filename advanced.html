@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Set viewport width-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Links to bootstrap -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--- Google Font Link -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <!-- Link to CSS -->
+      <link rel="stylesheet" type="" href="styles.css">
+      <!-- Set The Icon -->
+      <link rel="icon" href="logo.png" type="image" alt="Google">
+      <title>Google Advanced Search</title>
+    </head>
+    <body>
+      <!-- Header -->
+      <div class="nav-bar">
+        <!-- Google Logo -->
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+            </a>
+        </div>
+        <!--- Logo Wrapper  -->
+        <div class="header">
+          <a class="link" href="https://www.google.com/gmail/about/#">Gmail</a>
+          <a class="link" href="index.html">Google Search</a>
+          <a class="link" href="images.html">Images</a>
+          <a class="btn" href="#" role="button">Sign in</a>
+        </div>
+      </div>  
+      <!-- Header Wrapper  -->
+
+      <!-- Appbar Start -->
+      <div class="appbar">
+        <label>Advanced Search</label>
+      </div>
+      <div class="separator-line"></div>
+      <!-- Appbar End-->
+
+      <!-- Search -->
+      <div class="advanced-search-container">
+        <form action="https://www.google.com/search" method="get">
+          <label>Find pages with...</label>
+          <div class="whitespace"></div>
+          <label class="idot">To do this in the search box.</label>
+          <div class="form-group">
+            <label>All these words:</label>
+            <input class="textinput" autofocus="autofocus" id="#" name="as_q" type="text">
+            <div class="clarification">
+              Type the important words: <span class="monospace">tri-colour rat terrier</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>This exact word or phrase:</label>
+            <input class="textinput" autofocus="autofocus" id="#" name="as_epq" type="text">
+            <div class="clarification">
+              Put exact words in quotes: <span class="monospace">"rat terrier"</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Any of these words: </label>
+            <input class="textinput" autofocus="autofocus" id="#" name="as_oq" type="text">
+            <div class="clarification">
+              Type OR between all the words you want: <span class="monospace">miniature OR standard</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>None of these words:</label>
+            <input class="textinput" autofocus="autofocus" id="#" name="as_eq" type="text">
+            <div class="clarification">
+              Put a minus sign just before words that you don't want: <span class="monospace">-rodent, -"Jack Russell"</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label></label>
+            <div class="right-align">
+              <input type="submit" class="blue-button" value="Google Advanced Search">
+            </div>
+          </div>
+        </form>
+        <div class="separator-box"></div>    
+      </div>
+      <!-- Search Wrapper -->
+  
+      <!-- Footer -->
+      <footer>
+        <ul class="footer-left">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </footer>
+      <!--- Footer Wrapper -->
+    </body>
+</html>
