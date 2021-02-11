@@ -1,12 +1,12 @@
 # CS50-Project0-Google-Search
 
-An overview of the first Problem-Set of CS50’s Web Programming with Python and JavaScript: a simple clone of Google Search, Google Advanced Search and Google Images Search purely made with HTML and SCSS.
+An overview of the first Problem-Set of CS50’s Web Programming with Python and JavaScript: a simple clone of Google Search, Google Advanced Search and Google Images Search purely made with HTML and SASS.
 
 
 ## Youtube Video
-A short video where I go through the required specifications of the project: #
+A short video where I go through the required specifications of the project: [**View Demo Here**](https://youtu.be/i2FWan5tGBI)
 
-## Assignment specification
+## Specification
 1. **Pages**. Your website should have at least three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
     - On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
 2. **Query Text**. On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
